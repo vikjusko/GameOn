@@ -15,6 +15,7 @@
 		73825D7325598A6E00B081BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73825D7125598A6E00B081BE /* LaunchScreen.storyboard */; };
 		73825D7C25598B1700B081BE /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73825D7B25598B1700B081BE /* DataModel.swift */; };
 		73825D7F25598FA600B081BE /* ARDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73825D7E25598FA600B081BE /* ARDisplayView.swift */; };
+		BF3A1080255997C6007273F0 /* ARUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A107F255997C6007273F0 /* ARUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		73825D7425598A6E00B081BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73825D7B25598B1700B081BE /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		73825D7E25598FA600B081BE /* ARDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDisplayView.swift; sourceTree = "<group>"; };
+		BF3A107F255997C6007273F0 /* ARUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				73825D6E25598A6E00B081BE /* Preview Content */,
 				73825D7B25598B1700B081BE /* DataModel.swift */,
 				73825D7E25598FA600B081BE /* ARDisplayView.swift */,
+				BF3A107F255997C6007273F0 /* ARUIView.swift */,
 			);
 			path = GameOn;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73825D6925598A6B00B081BE /* ContentView.swift in Sources */,
+				BF3A1080255997C6007273F0 /* ARUIView.swift in Sources */,
 				73825D7C25598B1700B081BE /* DataModel.swift in Sources */,
 				73825D7F25598FA600B081BE /* ARDisplayView.swift in Sources */,
 				73825D6725598A6B00B081BE /* AppDelegate.swift in Sources */,
@@ -296,14 +300,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"GameOn/Preview Content\"";
-				DEVELOPMENT_TEAM = TLXN584WP7;
+				DEVELOPMENT_TEAM = LG8LH2CGDX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = GameOn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = vika.GameOn;
+				PRODUCT_BUNDLE_IDENTIFIER = louis.GameOn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,14 +321,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"GameOn/Preview Content\"";
-				DEVELOPMENT_TEAM = TLXN584WP7;
+				DEVELOPMENT_TEAM = LG8LH2CGDX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = GameOn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = vika.GameOn;
+				PRODUCT_BUNDLE_IDENTIFIER = louis.GameOn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

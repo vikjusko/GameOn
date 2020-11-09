@@ -9,8 +9,13 @@ import SwiftUI
 import RealityKit
 
 struct ContentView : View {
+    @EnvironmentObject var data: DataModel
     var body: some View {
-        return ARViewContainer().edgesIgnoringSafeArea(.all)
+        HStack {
+          ARUIView()
+            if data.enableAR {ARDisplayView()}
+            else {Spacer()}
+        }
     }
 }
 #if DEBUG
