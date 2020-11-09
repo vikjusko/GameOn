@@ -13,6 +13,8 @@
 		73825D6D25598A6E00B081BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73825D6C25598A6E00B081BE /* Assets.xcassets */; };
 		73825D7025598A6E00B081BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73825D6F25598A6E00B081BE /* Preview Assets.xcassets */; };
 		73825D7325598A6E00B081BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73825D7125598A6E00B081BE /* LaunchScreen.storyboard */; };
+		73825D7C25598B1700B081BE /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73825D7B25598B1700B081BE /* DataModel.swift */; };
+		73825D7F25598FA600B081BE /* ARDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73825D7E25598FA600B081BE /* ARDisplayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		73825D6F25598A6E00B081BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		73825D7225598A6E00B081BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73825D7425598A6E00B081BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73825D7B25598B1700B081BE /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		73825D7E25598FA600B081BE /* ARDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDisplayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				73825D7125598A6E00B081BE /* LaunchScreen.storyboard */,
 				73825D7425598A6E00B081BE /* Info.plist */,
 				73825D6E25598A6E00B081BE /* Preview Content */,
+				73825D7B25598B1700B081BE /* DataModel.swift */,
+				73825D7E25598FA600B081BE /* ARDisplayView.swift */,
 			);
 			path = GameOn;
 			sourceTree = "<group>";
@@ -146,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				73825D6925598A6B00B081BE /* ContentView.swift in Sources */,
+				73825D7C25598B1700B081BE /* DataModel.swift in Sources */,
+				73825D7F25598FA600B081BE /* ARDisplayView.swift in Sources */,
 				73825D6725598A6B00B081BE /* AppDelegate.swift in Sources */,
 				73825D6B25598A6B00B081BE /* Experience.rcproject in Sources */,
 			);
